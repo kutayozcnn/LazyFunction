@@ -18,6 +18,17 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:id="@+id/lazyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="control3"
+        android:text="Random Number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
         android:id="@+id/lazyButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,10 +47,22 @@
         android:layout_width="130dp"
         android:layout_height="65dp"
         android:layout_marginTop="187dp"
+        android:gravity="center"
         android:text="Sonuç"
+        android:textSize="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resultText2"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="264dp"
         android:gravity="center"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
