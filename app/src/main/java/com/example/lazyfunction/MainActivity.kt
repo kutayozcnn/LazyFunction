@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     val randomInt by RandomNum()
+
     val lazyDeger: String by lazy {
         println("Hello")
         "World"

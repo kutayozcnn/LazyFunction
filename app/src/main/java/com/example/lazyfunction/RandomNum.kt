@@ -12,6 +12,3 @@ public class RandomNum : ReadOnlyProperty<Any, Int>  {
         return Random.nextInt()
     }
 }
-class Application {
-    val randomInt by RandomNum()
-}
